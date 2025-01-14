@@ -1,15 +1,15 @@
-#Scripts for SARS-CoV-2 Interactive Data Visualization
-This repository contains Python scripts that provide interactive visualizations of SARS-CoV-2 sequencing data. The visualizations are created using Plotly, a popular graphing library for making interactive plots.
+# Scripts for SARS-CoV-2 Interactive Data Visualization
 
-Overview of Scripts 
-1- The first script processes data to display lineage distribution over time. specifically highlighting the count and percentage of different virus lineages over time. 
+## This repository contains Python scripts that provide interactive visualizations of SARS-CoV-2 sequencing data. The visualizations are created using Plotly, a popular graphing library for making interactive plots.
+
+## Overview of Scripts 
+1-StackedBar.py: The script processes data to display lineage distribution over time. specifically highlighting the count and percentage of different virus lineages over time. 
 
 
-
-##You can install the necessary libraries using pip e.g.,
+## You can install the necessary libraries using pip e.g.,
 pip install pandas plotly
 
-Usage
+## Usage
 Place your  data in the root of this repository. The data should be in a tab-separated format (TSV) and named your_data_file.csv.
 Run the script with the following command:
 bash
