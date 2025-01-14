@@ -25,7 +25,8 @@ python StackedBar.py
 
 ---
 ### Overview of Scripts 
----
+
+
 #### 1-StackedBar.py 
 The script processes data to display lineage distribution over time in the form of stacked bars specifically highlighting the count and percentage of different virus lineages over time. 
 
