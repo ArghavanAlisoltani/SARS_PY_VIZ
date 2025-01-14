@@ -1,2 +1,2 @@
 # SARS_PY_VIZ
-Python interactive visualization to displays the distribution of lineages over time.
+Python code for interactive visualization to display the distribution of lineages over time.
