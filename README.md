@@ -1,7 +1,9 @@
 ## Scripts for SARS-CoV-2 Interactive Data Visualization
 
+
 #### This repository contains Python scripts that provide interactive visualizations of SARS-CoV-2 sequencing data. The visualizations are created using Plotly, a popular graphing library for making interactive plots.
 
+---
 ### Library installation
 
 You can install the necessary libraries using pip.
