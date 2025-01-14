@@ -27,7 +27,7 @@ python StackedBar.py
 ### Overview of Scripts 
 ---
 #### 1-StackedBar.py 
-The script processes data to display lineage distribution over time. specifically highlighting the count and percentage of different virus lineages over time. 
+The script processes data to display lineage distribution over time in the form of stacked bars specifically highlighting the count and percentage of different virus lineages over time. 
 
 #### Data Format
 The script expects a TSV file with the following key columns:
@@ -39,6 +39,7 @@ Lineage: The identified lineage of the SARS-CoV-2 from each sample.
 
 ---
 #### 1-AreaChart.py 
+The script processes data to display lineage distribution over time in the form of stacked bars specifically highlighting the count and percentage of different virus lineages over time
 
 #### Data Format
 The script expects a TSV file with the following key columns:
@@ -47,7 +48,6 @@ Collection date: The date of sample collection.
 Lineage: The identified lineage of the SARS-CoV-2 from each sample. 
 
 ** Ensure your data adheres to this format to avoid processing errors. **
-
 
 ---
 ### Contributing
