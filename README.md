@@ -27,7 +27,7 @@ python StackedBar.py
 ### Overview of Scripts 
 
 
-#### 1- StackedBar.py 
+- #### 1- StackedBar.py 
 The script processes data to display lineage distribution over time in the form of stacked bars specifically highlighting the count and percentage of different virus lineages over time. 
 
 #### Data Format
@@ -39,7 +39,7 @@ Lineage: The identified lineage of the SARS-CoV-2 from each sample.
 ** Ensure your data adheres to this format to avoid processing errors. **
 
 ---
-#### 2- AreaChart.py 
+- #### 2- AreaChart.py 
 The script processes data to display lineage distribution over time in the form of stacked bars specifically highlighting the count and percentage of different virus lineages over time
 
 #### Data Format
