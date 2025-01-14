@@ -53,5 +53,5 @@ Lineage: The identified lineage of the SARS-CoV-2 from each sample.
 ### Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your enhancements.
 
-## License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
