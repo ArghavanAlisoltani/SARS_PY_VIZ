@@ -53,9 +53,19 @@ def main(input_file, output_file):
     print(f"Plot saved as HTML file at: {output_file}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate a Plotly bar chart from GISAID data.")
-    parser.add_argument('input_file', type=str, help='The input TSV file path containing the data.')
-    parser.add_argument('output_file', type=str, help='The output HTML file path to save the plot.')
+    parser = argparse.ArgumentParser(
+        description="Generate a Plotly bar chart from GISAID data. This script reads a TSV file containing lineage data with a 'Collection date'$
+    )
+    parser.add_argument(
+        'input_file',
+        type=str,
+        help='Path to the input TSV file. The file should contain at least two columns: "Collection date" and "Lineage".'
+    )
+    parser.add_argument(
+        'output_file',
+        type=str,
+        help='Path to the output HTML file where the plot will be saved.'
+    )
 
     args = parser.parse_args()
     main(args.input_file, args.output_file)
