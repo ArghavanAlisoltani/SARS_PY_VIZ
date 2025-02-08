@@ -20,7 +20,7 @@ The data should be in a tab-separated format (TSV) and named your_data_file.tsv.
 Run the script of interest with the following command format:
 
 ```
-python StackedBar.py /path/to/input_file.tsv /path/to/output_file.html
+python 1-StackedBar.py /path/to/input_file.tsv /path/to/output_file.html
 ```
 
 ---
